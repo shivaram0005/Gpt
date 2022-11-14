@@ -1,0 +1,105 @@
+.imagination{
+    width: 1170px;
+    height: 695px;
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #042c54;
+}
+.imagination .inside-imagination{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+.imagination .inside-imagination .imagination-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    /* border: 1px solid red; */
+}
+.imagination .inside-imagination .imagination-one .whatisgpt img{
+    width: 38px;
+    height: 3px;
+}
+.imagination .inside-imagination .imagination-one .whatisgpt p{
+    font-weight: 800px;
+    font-size: 24px;
+    line-height: 75px;
+    color: #ffffff;
+    letter-spacing: -0.04rem;
+    width: 151px;
+    height: 75px;
+
+}
+.imagination .inside-imagination .imagination-one .gptcontent{
+width: 731px;
+height: 92px;
+font-weight: 500px;
+font-size: 16px;
+line-height: 30px;
+color: #81afdd;
+}
+.imagination .inside-imagination .imagination-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+.imagination .inside-imagination .imagination-two .left-content p{
+    width: 472px;
+    height: 90px;
+    font-weight: 800px;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.imagination .inside-imagination .imagination-two .right-content p{
+    width: 143px;
+    height: 30px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ff8a71;
+}
+.imagination .inside-imagination .imagination-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagination .inside-imagination .imagination-three{
+    position: relative;
+    top: 200px;
+}
+.imagination .inside-imagination .imagination-three div img{
+    width: 38px;
+    height: 3px;
+}
+.imagination .inside-imagination .imagination-three div h2{
+    width: 105px;
+    height: 75px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+.imagination .inside-imagination .imagination-three div p{
+    width: 334px;
+    height: 92px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81afdd;
+}

@@ -1,0 +1,54 @@
+.imagesection{
+    width: 90%;
+    margin: auto;
+    border: 1px solid red;
+    margin-top: 50px;
+    background-image: url("../assets/Rectangle\ 26.png");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    width: 1170px;
+    height: 152.65px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+        
+}
+.imagesection .imagecontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.imagesection .imagecontent .leftimagecontent p{
+    width: 318.87px;
+    height: 46.89px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0e0e0e;
+}
+.imagesection .imagecontent .leftimagecontent h2{
+    width: 801.87px;
+    height: 70.34px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+.imagesection .imagecontent .rightimagecontent button{
+    width: 189.14px;
+    height: 59.4px;
+    background: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.imagesection .imagecontent .rightimagecontent button:hover{
+    cursor: pointer;
+}

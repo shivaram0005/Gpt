@@ -1,0 +1,89 @@
+.herosection{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.herosection .herosection-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.herosection .herosection-left h2{
+    font-style: normal;
+    font-size: 62px;
+    line-height: 75px;
+    font-weight: 800;
+    letter-spacing:  -0.04em;
+    width: 614px;
+    height: 225px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.herosection .herosection-left p{
+    width: 554px;
+    height: 227px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: #81afdd;
+    margin-top: 20px;
+}
+.herosection .herosection-left .inputvalues{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    margin-left: -160px;
+}
+.herosection .herosection-left .inputvalues input[type = text]{
+    width: 456px;
+    height: 60px;
+    background: #052d56;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    
+}
+.herosection .herosection-left .inputvalues button{
+    width: 174px;
+    height: 60px;
+    background: #ff4820;
+    border-radius: 5px 0px 0px 5px;
+    color: #ffffff;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.herosection .herosection-left .inputvalues button:hover{
+    cursor: pointer;
+}
+.herosection .herosection-left .group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.herosection .herosection-left .group img{
+    width: 200px;
+    height: 36px;
+    border: 2.08948px solid #ffffff;
+}
+.herosection .herosection-left .group p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    width: 581.92px;
+    height: 37.61px;
+}
+.herosection .herosection-right img{
+    width: 500px;
+    height: 600px;
+
+}

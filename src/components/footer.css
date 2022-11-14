@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.footer .logo img{
+    width: 118px;
+    height: 30px;
+
+}
+.footer .links ul{
+    list-style-type: none;
+
+}
+.footer .links h2, li{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+}
